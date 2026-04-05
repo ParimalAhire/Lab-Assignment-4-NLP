@@ -225,8 +225,3 @@ This assignment demonstrates the application of NLP techniques for spam detectio
 
 The results show that traditional machine learning models can perform very effectively on text classification tasks when combined with proper preprocessing and TF-IDF feature extraction.
 
----
-
-## Note
-
-This project is created for academic submission of **Lab Assignment 4 – NLP**.
