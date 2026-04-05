@@ -11,19 +11,14 @@ Selected Problem Statement: SMS Spam Message Classification
 
 ---
 
-## Student Details
+## Group Details
 
-Name: Parimal Ahire  
-Roll No: 202301040067  
-
-Name: Atharva Suryawanshi  
-Roll No: 202301040283  
-
-Name: Rajveersinh Kher  
-Roll No: 202301040233  
-
-Name: Mohit Patil  
-Roll No: 202301040272  
+| Student Name | PRN |
+|--------------|-------------------|
+| Parimal Ahire | 202301040067 |
+| Atharva Suryawanshi | 202301040283 |
+| Rajveersinh Kher | 202301040233 |
+| Mohit Patil | 202301040272 |
 
 ---
 
