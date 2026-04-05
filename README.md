@@ -251,6 +251,20 @@ Possible improvements:
 
 ---
 
+## Research Paper Reference
+
+Title: SMS Spam Detection using Machine Learning and Deep Learning Techniques  
+Authors: Sridevi Gadde, A. Lakshmanarao, S. Satyanarayana  
+Year: 2021  
+
+Citation (IEEE format):
+
+S. Gadde, A. Lakshmanarao and S. Satyanarayana, "SMS Spam Detection using Machine Learning and Deep Learning Techniques," 2021 7th International Conference on Advanced Computing and Communication Systems (ICACCS), 2021, pp. 358–362.
+
+The paper demonstrates the use of machine learning and deep learning techniques such as Naive Bayes, Logistic Regression, SVM and LSTM for SMS spam classification using NLP preprocessing and TF-IDF feature extraction.
+
+---
+
 ## Conclusion
 
 This assignment demonstrates the application of NLP techniques for spam detection. After comparing both models, Naive Bayes achieved slightly better accuracy (96.50%) compared to Logistic Regression (95.43%).
