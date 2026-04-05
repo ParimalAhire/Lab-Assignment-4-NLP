@@ -48,7 +48,7 @@ Dataset contains:
 - SMS text messages
 - Labels (Spam or Ham)
 
-Dataset Source:
+Dataset Source:  
 https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 
 Dataset Description:
@@ -62,6 +62,7 @@ Dataset Description:
 
 ### 1. Data Loading
 The dataset is loaded using pandas and basic exploration is performed:
+
 - Checking null values
 - Checking class distribution
 - Understanding dataset structure
@@ -88,6 +89,7 @@ To clean the raw text and improve model performance.
 TF-IDF Vectorization was used to convert text into numerical vectors.
 
 Why TF-IDF:
+
 - Highlights important words
 - Reduces impact of common words
 - Improves classification quality
@@ -104,8 +106,8 @@ Naive Bayes:
 - Simple implementation
 
 Logistic Regression:
-- Better accuracy
-- Good for binary classification
+- Good accuracy
+- Suitable for binary classification
 - Handles feature relationships better
 
 ---
@@ -121,6 +123,7 @@ Models were evaluated using:
 - Confusion Matrix
 
 These metrics help measure:
+
 - Correct spam detection
 - False detections
 - Overall performance
@@ -129,26 +132,31 @@ These metrics help measure:
 
 ## Model Analysis
 
-Naive Bayes
+### Naive Bayes
 
 Strengths:
+
 - Fast training
 - Simple algorithm
 - Works well for text classification
+- Achieved highest accuracy in this experiment
 
 Limitations:
+
 - Assumes word independence
 - Cannot capture complex relationships
 
-Logistic Regression
+### Logistic Regression
 
 Strengths:
-- Better accuracy
-- Better recall for spam detection
-- More stable predictions
+
+- Stable predictions
+- Good classification performance
+- Handles feature relationships
 
 Limitations:
-- Slightly slower than Naive Bayes
+
+- Slightly lower accuracy than Naive Bayes in this experiment
 - Requires good feature extraction
 
 ---
@@ -167,10 +175,11 @@ Limitations:
 
 ## Implementation
 
-The complete implementation is provided in the Jupyter Notebook:
+The complete implementation is provided in the Jupyter Notebook:  
 LabAssignment_4_NLP.ipynb
 
 The notebook includes:
+
 - Data preprocessing
 - Feature extraction using TF-IDF
 - Model training
@@ -179,6 +188,8 @@ The notebook includes:
 
 All outputs are already executed and visible in the notebook.
 
+---
+
 ## Results
 
 Model performance comparison shows:
@@ -186,10 +197,31 @@ Model performance comparison shows:
 - Naive Bayes Accuracy: 96.50%
 - Logistic Regression Accuracy: 95.43%
 
-Observation:
-- Naive Bayes performed slightly better on this dataset.
-- Both models achieved high accuracy.
-- Naive Bayes worked well due to probabilistic text classification suitability.
+Observations:
+
+- Naive Bayes performed slightly better on this dataset
+- Both models achieved high accuracy
+- Traditional ML models perform well for spam detection
+
+---
+
+## Result Visualizations
+
+### Class Distribution
+
+![Class Distribution](ClassDistribution.png)
+
+### Confusion Matrix – Naive Bayes
+
+![Naive Bayes Confusion Matrix](ConfusionMatrixNaiveBayes.png)
+
+### Confusion Matrix – Logistic Regression
+
+![Logistic Regression Confusion Matrix](ConfusionMatrixLogistic.png)
+
+### Model Accuracy Comparison
+
+![Model Accuracy](ModelAccuracyComparison.png)
 
 ---
 
@@ -202,7 +234,7 @@ This assignment helped in understanding:
 - Spam classification techniques
 - Model comparison
 - Evaluation metrics
-- Confusion matrix analysis
+- Confusion matrix interpretation
 
 ---
 
@@ -223,5 +255,4 @@ Possible improvements:
 
 This assignment demonstrates the application of NLP techniques for spam detection. After comparing both models, Naive Bayes achieved slightly better accuracy (96.50%) compared to Logistic Regression (95.43%).
 
-The results show that traditional machine learning models can perform very effectively on text classification tasks when combined with proper preprocessing and TF-IDF feature extraction.
-
+The results show that traditional machine learning models can perform effectively on text classification tasks when combined with proper preprocessing and TF-IDF feature extraction.
